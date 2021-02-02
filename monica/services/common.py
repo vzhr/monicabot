@@ -1,5 +1,6 @@
 from httpx import AsyncClient, HTTPError
-from log import logger
+
+from .log import logger
 
 
 class ServiceException(Exception):

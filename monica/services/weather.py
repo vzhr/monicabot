@@ -1,5 +1,6 @@
 from aiocache import cached
-from common import fetch_text
+
+from .common import fetch_text
 
 
 @cached(ttl=60)  # 结果缓存60s
